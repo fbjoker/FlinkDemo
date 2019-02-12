@@ -18,6 +18,7 @@ object DataStreamDemo {
 
     //source 读取文本
     val stream= env.readTextFile("test00.txt")
+
     val stream2= env.readTextFile("test01.txt")
 //
 //    //读取socket
